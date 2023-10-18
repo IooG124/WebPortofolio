@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+/* Nav */
+.Ioo{
+    color:#EEEBDD;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:1.5em;
+    font-size: 2.3em;
+}
+.G{
+    color:#EEEBDD;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2.3em;
+    margin-right: 34%;
+}
+.menu{
+    display: flex;
+    width:100%;
+    background-color: #630000;
+    align-items: center;
+    height:auto;
+
+}
+.menu h2{
+    background-color: inherit;
+}
+.menu a{
+    background-color: inherit;
+    color :#EEEBDD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 17px;
+    padding:35px 35px;
+}
+        a.home:hover{
+            color:#1B1717;
+            background-color: #EEEBDD;
+        }
+        a.aboutMe:hover{
+            color: #1B1717;
+            background-color: #EEEBDD;
+        }
+        a.myactivity:hover{
+            color: #1B1717;
+            background-color: #EEEBDD;
+        }
+        a.achievment:hover{
+            color:#1B1717;
+            background-color: #EEEBDD;
+        }
+        a.contactme:hover{
+            color: #1B1717;
+            background-color: #EEEBDD;
+        }
+
+/* .menu a::before{
+    content: '';
+    position: absolute;
+    top:100%;
+    left:0;
+    width:0;
+    height:2px;
+    background-color: #630000;
+    transition: .5s ease-in-out;
+}
+.menu a:hover::before{
+    width: 100%;
+} */
+/* END of Nav */
+
+.judul{
+    font-size: 3.0em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#EEEBDD;
+}
+body{
+    background-color: #1B1717;
+
+}
+/* INTRO */
+.pfp{
+    width:280px;
+    height:315px;
+    align-content: center;
+    float: left; 
+    margin: auto;
+    border-radius: 200px;
+    margin-right: 40px;
+}
+
+.clr1{
+    clear:both;
+}
+
+.introSpace{
+    width: 100%;
+    margin: auto;
+}
+.intro{
+    border-radius: 15px;
+    border: 20px solid #EEEBDD;
+    background-color: #630000;
+    padding: 40px ;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:#EEEBDD;
+    width:50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.intro p{
+    margin:auto;
+    padding : 0 40px;
+    background-color: #630000;
+}
+
+.motivasi{
+    margin:20px;
+    margin-top: 50px;
+    align-content: center;
+    background-color: #EEEBDD;
+}
+.motivasi p i{
+    
+    margin: auto;
+    margin-top: 20px;
+    color: #EEEBDD;
+    width: 80%;
+    align-items: center;
+    background-color: inherit;
+    font-weight: 600;
+}
+/* END of INTRO */
+
+/* ABOUT ME */
+.pfp2{
+    margin-top: 30px;
+    visibility:visible;
+    float:left;
+    margin: auto;
+    height:80vh;
+}
+.img2{
+    height:95%;
+    width:auto;
+    margin: 0 0 30px 30px
+}
+.datadiri h4{
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+}
+.datadiri{
+    color: #EEEBDD;
+    margin: 7% 0 auto 0;
+    font-size: 20px;
+    height: 100%;
+}
+
+
+/* ACTIVITY */
+.act{
+    padding: 0 100px;
+    margin-top: 20px;
+}
+.act h2{
+    font-size: 35px;
+    font-weight: 600;
+    background-color: #EEEBDD;
+    margin-bottom: 5px;
+}
+.act dd{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #EEEBDD;
+}
+.dance h2{
+    padding-left: 30px;
+}
+.dance dd{
+    padding-left:30px;
+    padding-right: 80px;
+}
+.pbs{
+    text-align: right;
+}
+.pbs h2{
+    padding-right: 30px;
+}
+.pbs dd{
+    padding:0 30px;
+    padding-left:80px;
+}
+.bing h2{
+    padding-left: 30px;
+}
+.bing dd{
+    padding:0 30px;
+    padding-left:50px;
+    margin-right: 80px;
+}
+hr{
+    display: none;
+}
+
+/* ACHIEVEMNET */
+.achv{
+    padding: 0 100px;
+    color: #EEEBDD;
+    margin:30px auto 0 30.5%;
+    
+}
+.achv li {
+    margin-bottom:20px;
+    padding: 20px 15px 280px 15px;
+    border: #630000 2px solid;
+    border-radius: 10px;
+    width: 450px;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+
+/* SOSMED */
+.sosmed{
+    margin-top: 30px;
+}
+.sosmed table a img{
+    height: 85px;
+    width:110px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.sosmed a{
+    text-decoration: none;
+    color : #EEEBDD;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+/* COPYRIGHTS */
+.cpy{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color:#EEEBDD;
+    background-color: #630000;
+    position: fixed;
+    bottom:0;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 0;
+}
